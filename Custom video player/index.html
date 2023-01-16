@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+
+    <div class="container">
+        <video src="video.mp4"
+        class="video" controlsList="nodownload">
+        </video>
+
+        <div class="controls">
+            <b>Hornmiup</b>
+            <button class="playPauseBtn" title="Play/Pause">
+                <i class="fa fa-play"></i>
+            </button>
+            <button class="stop" title="stop">
+                <i class="fa fa-stop"></i>
+            </button>
+            <input type="range" class="slide" value="0">
+            <p class="timer">00:00</p>
+            <button class="expand" title="Full Screen">
+                <i class="fa fa-expand"></i>
+            </button>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
